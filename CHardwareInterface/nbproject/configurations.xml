@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>../WiringPi-2.60/wiringPi/ads1115.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/bmp180.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/drcNet.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/drcSerial.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/ds18b20.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/htu21d.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/max31855.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/max5322.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp23008.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp23016.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp23016reg.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp23017.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp23s08.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp23s17.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp23x08.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp23x0817.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp3002.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp3004.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp3422.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp4802.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/pcf8574.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/pcf8591.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/pseudoPins.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/rht03.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/sn3218.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/softPwm.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/softServo.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/softTone.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/sr595.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/wiringPi.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/wiringPiI2C.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/wiringPiSPI.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/wiringSerial.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/wiringShift.h</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/wpiExtensions.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../WiringPi-2.60/wiringPi/ads1115.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/bmp180.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/drcNet.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/drcSerial.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/ds18b20.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/htu21d.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/max31855.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/max5322.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp23008.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp23016.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp23017.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp23s08.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp23s17.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp3002.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp3004.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp3422.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/mcp4802.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/pcf8574.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/pcf8591.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/piHiPri.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/piThread.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/pseudoPins.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/rht03.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/sn3218.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/softPwm.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/softServo.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/softTone.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/sr595.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/wiringPi.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/wiringPiI2C.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/wiringPiSPI.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/wiringSerial.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/wiringShift.c</itemPath>
+      <itemPath>../WiringPi-2.60/wiringPi/wpiExtensions.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerOptionItem>-lm -lpthread -lrt -lcrypt</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../WiringPi-2.60/wiringPi/ads1115.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/ads1115.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/bmp180.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/bmp180.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/drcNet.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/drcNet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/drcSerial.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/drcSerial.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/ds18b20.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/ds18b20.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/htu21d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/htu21d.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/max31855.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/max31855.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/max5322.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/max5322.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23008.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23008.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23016.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23016.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23016reg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23017.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23017.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23s08.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23s08.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23s17.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23s17.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23x08.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23x0817.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp3002.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp3002.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp3004.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp3004.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp3422.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp3422.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp4802.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp4802.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/pcf8574.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/pcf8574.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/pcf8591.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/pcf8591.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/piHiPri.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/piThread.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/pseudoPins.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/pseudoPins.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/rht03.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/rht03.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/sn3218.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/sn3218.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/softPwm.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/softPwm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/softServo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/softServo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/softTone.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/softTone.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/sr595.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/sr595.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringPi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringPi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringPiI2C.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringPiI2C.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringPiSPI.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringPiSPI.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringSerial.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringSerial.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringShift.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringShift.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wpiExtensions.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wpiExtensions.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../WiringPi-2.60/wiringPi/ads1115.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/ads1115.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/bmp180.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/bmp180.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/drcNet.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/drcNet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/drcSerial.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/drcSerial.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/ds18b20.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/ds18b20.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/htu21d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/htu21d.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/max31855.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/max31855.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/max5322.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/max5322.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23008.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23008.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23016.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23016.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23016reg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23017.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23017.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23s08.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23s08.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23s17.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23s17.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23x08.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp23x0817.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp3002.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp3002.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp3004.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp3004.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp3422.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp3422.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp4802.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/mcp4802.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/pcf8574.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/pcf8574.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/pcf8591.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/pcf8591.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/piHiPri.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/piThread.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/pseudoPins.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/pseudoPins.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/rht03.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/rht03.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/sn3218.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/sn3218.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/softPwm.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/softPwm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/softServo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/softServo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/softTone.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/softTone.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/sr595.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/sr595.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringPi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringPi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringPiI2C.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringPiI2C.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringPiSPI.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringPiSPI.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringSerial.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringSerial.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringShift.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wiringShift.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wpiExtensions.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../WiringPi-2.60/wiringPi/wpiExtensions.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
