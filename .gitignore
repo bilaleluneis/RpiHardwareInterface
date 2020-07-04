@@ -1,5 +1,5 @@
 # PiCinterface ignored files / folders
 
-/PiCinterface/nbproject/private/
-/PiCinterface/build/
-/PiCinterface/dist/
+/CHardwareInterface/nbproject/private/
+/CHardwareInterface/build/
+/CHardwareInterface/dist/
