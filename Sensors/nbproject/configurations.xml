@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>dht11.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>dht11.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f1"
+                     displayName="DHT11 Tests"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>read.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>../WiringPi-2.60/wiringPi</pElem>
+          </incDir>
+          <incFile>
+            <pElem>../WiringPi-2.60/wiringPi/ads1115.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/bmp180.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/drcNet.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/drcSerial.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/ds18b20.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/htu21d.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/max31855.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/max5322.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/mcp23008.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/mcp23016.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/mcp23016reg.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/mcp23017.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/mcp23s08.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/mcp23s17.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/mcp23x08.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/mcp23x0817.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/mcp3002.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/mcp3004.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/mcp3422.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/mcp4802.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/pcf8574.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/pcf8591.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/pseudoPins.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/rht03.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/sn3218.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/softPwm.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/softServo.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/softTone.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/sr595.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/wiringPi.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/wiringPiI2C.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/wiringPiSPI.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/wiringSerial.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/wiringShift.h</pElem>
+            <pElem>../WiringPi-2.60/wiringPi/wpiExtensions.h</pElem>
+          </incFile>
+        </cTool>
+        <linkerTool>
+          <linkerCopySharedLibs>true</linkerCopySharedLibs>
+          <linkerLibItems>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../CHardwareInterface"
+                            CT="2"
+                            CN="Debug"
+                            AC="true"
+                            BL="true"
+                            WD="../CHardwareInterface"
+                            BC="${MAKE}  -f Makefile CONF=Debug"
+                            CC="${MAKE}  -f Makefile CONF=Debug clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.${CND_DLIB_EXT}">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../CHardwareInterface"
+                            CT="2"
+                            CN="Release"
+                            AC="false"
+                            BL="true"
+                            WD="../CHardwareInterface"
+                            BC="${MAKE}  -f Makefile CONF=Release"
+                            CC="${MAKE}  -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.${CND_DLIB_EXT}">
+              </makeArtifact>
+            </linkerLibProjectItem>
+          </linkerLibItems>
+        </linkerTool>
+        <requiredProjects>
+          <makeArtifact PL="../CHardwareInterface"
+                        CT="2"
+                        CN="Debug"
+                        AC="true"
+                        BL="true"
+                        WD="../CHardwareInterface"
+                        BC="${MAKE}  -f Makefile CONF=Debug"
+                        CC="${MAKE}  -f Makefile CONF=Debug clean"
+                        OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.${CND_DLIB_EXT}">
+          </makeArtifact>
+          <makeArtifact PL="../CHardwareInterface"
+                        CT="2"
+                        CN="Release"
+                        AC="false"
+                        BL="true"
+                        WD="../CHardwareInterface"
+                        BC="${MAKE}  -f Makefile CONF=Release"
+                        CC="${MAKE}  -f Makefile CONF=Release clean"
+                        OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.${CND_DLIB_EXT}">
+          </makeArtifact>
+        </requiredProjects>
+      </compileType>
+      <packaging>
+        <packType>Tar</packType>
+        <packFileList>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}lib/libCHardwareInterface.so"
+                            from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.so"
+                            perm="644"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}lib/libCHardwareInterface.so"
+                            from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.so"
+                            perm="644"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}lib/${OUTPUT_BASENAME}"
+                            from="${OUTPUT_PATH}"
+                            perm="644"
+                            owner="root"
+                            group="bin"/>
+        </packFileList>
+      </packaging>
+      <item path="dht11.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dht11.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+          <linkerLibItems>
+            <linkerOptionItem>-lcunit</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
+      <item path="read.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="dht11.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dht11.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+          <linkerLibItems>
+            <linkerOptionItem>-lcunit</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
+      <item path="read.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
