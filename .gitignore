@@ -1,5 +1,10 @@
-# PiCinterface ignored files / folders
+# CHardwareInterface ignored files / folders
 
 /CHardwareInterface/nbproject/private/
 /CHardwareInterface/build/
 /CHardwareInterface/dist/
+
+# Sensors ignored files / folders
+/Sensors/build/
+/Sensors/dist/
+/Sensors/nbproject/private/
