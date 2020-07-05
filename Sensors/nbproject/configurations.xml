@@ -157,6 +157,24 @@
                             perm="644"
                             owner="root"
                             group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}lib/libCHardwareInterface.so"
+                            from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.so"
+                            perm="644"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}lib/libCHardwareInterface.so"
+                            from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.so"
+                            perm="644"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}lib/${OUTPUT_BASENAME}"
+                            from="${OUTPUT_PATH}"
+                            perm="644"
+                            owner="root"
+                            group="bin"/>
         </packFileList>
       </packaging>
       <item path="dht11.c" ex="false" tool="0" flavor2="0">
