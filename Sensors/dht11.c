@@ -26,7 +26,6 @@ dhtData get(const int pin) {
         }
 	laststate = digitalRead( pin );
 	if ( counter == 255 ) break;
-        
         if ( (i >= 4) && (i % 2 == 0) ){
             dht11_dat[j / 8] <<= 1;
             if ( counter > 16 ) dht11_dat[j / 8] |= 1;
@@ -43,5 +42,7 @@ dhtData get(const int pin) {
         result.temp = dht11_dat[2];
         result.humidity = dht11_dat[0];
     }
+    
+    return result;
 }
     

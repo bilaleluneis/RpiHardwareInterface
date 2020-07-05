@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <CUnit/Basic.h>
+#include <wiringPi.h>
 #include "dht11.h"
 
 /*
@@ -30,6 +31,7 @@ void testRead() {
     result.humidity = -1;
     for(int i =0; i < 100; i++) {
         result = get(1);
+        delay(300);
         if(result.success)
             break;
     }
