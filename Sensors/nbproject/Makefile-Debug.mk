@@ -85,10 +85,6 @@ ${OBJECTDIR}/dht11.o: dht11.c
 
 # Subprojects
 .build-subprojects:
-	cd ../CHardwareInterface && ${MAKE}  -f Makefile CONF=Debug
-	cd ../CHardwareInterface && ${MAKE}  -f Makefile CONF=Release
-	cd ../CHardwareInterface && ${MAKE}  -f Makefile CONF=Debug
-	cd ../CHardwareInterface && ${MAKE}  -f Makefile CONF=Release
 
 # Build Test Targets
 .build-tests-conf: .build-tests-subprojects .build-conf ${TESTFILES}
@@ -135,10 +131,6 @@ ${OBJECTDIR}/dht11_nomain.o: ${OBJECTDIR}/dht11.o dht11.c
 
 # Subprojects
 .clean-subprojects:
-	cd ../CHardwareInterface && ${MAKE}  -f Makefile CONF=Debug clean
-	cd ../CHardwareInterface && ${MAKE}  -f Makefile CONF=Release clean
-	cd ../CHardwareInterface && ${MAKE}  -f Makefile CONF=Debug clean
-	cd ../CHardwareInterface && ${MAKE}  -f Makefile CONF=Release clean
 
 # Enable dependency checking
 .dep.inc: .depcheck-impl
