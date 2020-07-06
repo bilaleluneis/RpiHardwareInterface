@@ -8,3 +8,8 @@
 /Sensors/build/
 /Sensors/dist/
 /Sensors/nbproject/private/
+
+# JSensors ignored files / folders
+/JSensors/build/
+/JSensors/dist/
+/JSensors/nbproject/private/
