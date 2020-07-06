@@ -9,11 +9,11 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=libCHardwareInterface.so
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/libCHardwareInterface.so
+CND_ARTIFACT_NAME_Debug=libchardwareinterface.a
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/libchardwareinterface.a
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=libCHardwareInterface.so.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/libCHardwareInterface.so.tar
+CND_PACKAGE_NAME_Debug=CHardwareInterface.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/CHardwareInterface.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux

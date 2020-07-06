@@ -89,181 +89,183 @@ LDLIBSOPTIONS=-lm -lpthread -lrt -lcrypt
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.${CND_DLIB_EXT}
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libchardwareinterface.a
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.${CND_DLIB_EXT}: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libchardwareinterface.a: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.${CND_DLIB_EXT} ${OBJECTFILES} ${LDLIBSOPTIONS} -shared -fPIC
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libchardwareinterface.a
+	${AR} -rv ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libchardwareinterface.a ${OBJECTFILES} 
+	$(RANLIB) ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libchardwareinterface.a
 
 ${OBJECTDIR}/_ext/2d7f4231/ads1115.o: ../WiringPi-2.60/wiringPi/ads1115.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/ads1115.o ../WiringPi-2.60/wiringPi/ads1115.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/ads1115.o ../WiringPi-2.60/wiringPi/ads1115.c
 
 ${OBJECTDIR}/_ext/2d7f4231/bmp180.o: ../WiringPi-2.60/wiringPi/bmp180.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/bmp180.o ../WiringPi-2.60/wiringPi/bmp180.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/bmp180.o ../WiringPi-2.60/wiringPi/bmp180.c
 
 ${OBJECTDIR}/_ext/2d7f4231/drcNet.o: ../WiringPi-2.60/wiringPi/drcNet.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/drcNet.o ../WiringPi-2.60/wiringPi/drcNet.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/drcNet.o ../WiringPi-2.60/wiringPi/drcNet.c
 
 ${OBJECTDIR}/_ext/2d7f4231/drcSerial.o: ../WiringPi-2.60/wiringPi/drcSerial.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/drcSerial.o ../WiringPi-2.60/wiringPi/drcSerial.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/drcSerial.o ../WiringPi-2.60/wiringPi/drcSerial.c
 
 ${OBJECTDIR}/_ext/2d7f4231/ds18b20.o: ../WiringPi-2.60/wiringPi/ds18b20.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/ds18b20.o ../WiringPi-2.60/wiringPi/ds18b20.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/ds18b20.o ../WiringPi-2.60/wiringPi/ds18b20.c
 
 ${OBJECTDIR}/_ext/2d7f4231/htu21d.o: ../WiringPi-2.60/wiringPi/htu21d.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/htu21d.o ../WiringPi-2.60/wiringPi/htu21d.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/htu21d.o ../WiringPi-2.60/wiringPi/htu21d.c
 
 ${OBJECTDIR}/_ext/2d7f4231/max31855.o: ../WiringPi-2.60/wiringPi/max31855.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/max31855.o ../WiringPi-2.60/wiringPi/max31855.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/max31855.o ../WiringPi-2.60/wiringPi/max31855.c
 
 ${OBJECTDIR}/_ext/2d7f4231/max5322.o: ../WiringPi-2.60/wiringPi/max5322.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/max5322.o ../WiringPi-2.60/wiringPi/max5322.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/max5322.o ../WiringPi-2.60/wiringPi/max5322.c
 
 ${OBJECTDIR}/_ext/2d7f4231/mcp23008.o: ../WiringPi-2.60/wiringPi/mcp23008.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp23008.o ../WiringPi-2.60/wiringPi/mcp23008.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp23008.o ../WiringPi-2.60/wiringPi/mcp23008.c
 
 ${OBJECTDIR}/_ext/2d7f4231/mcp23016.o: ../WiringPi-2.60/wiringPi/mcp23016.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp23016.o ../WiringPi-2.60/wiringPi/mcp23016.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp23016.o ../WiringPi-2.60/wiringPi/mcp23016.c
 
 ${OBJECTDIR}/_ext/2d7f4231/mcp23017.o: ../WiringPi-2.60/wiringPi/mcp23017.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp23017.o ../WiringPi-2.60/wiringPi/mcp23017.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp23017.o ../WiringPi-2.60/wiringPi/mcp23017.c
 
 ${OBJECTDIR}/_ext/2d7f4231/mcp23s08.o: ../WiringPi-2.60/wiringPi/mcp23s08.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp23s08.o ../WiringPi-2.60/wiringPi/mcp23s08.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp23s08.o ../WiringPi-2.60/wiringPi/mcp23s08.c
 
 ${OBJECTDIR}/_ext/2d7f4231/mcp23s17.o: ../WiringPi-2.60/wiringPi/mcp23s17.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp23s17.o ../WiringPi-2.60/wiringPi/mcp23s17.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp23s17.o ../WiringPi-2.60/wiringPi/mcp23s17.c
 
 ${OBJECTDIR}/_ext/2d7f4231/mcp3002.o: ../WiringPi-2.60/wiringPi/mcp3002.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp3002.o ../WiringPi-2.60/wiringPi/mcp3002.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp3002.o ../WiringPi-2.60/wiringPi/mcp3002.c
 
 ${OBJECTDIR}/_ext/2d7f4231/mcp3004.o: ../WiringPi-2.60/wiringPi/mcp3004.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp3004.o ../WiringPi-2.60/wiringPi/mcp3004.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp3004.o ../WiringPi-2.60/wiringPi/mcp3004.c
 
 ${OBJECTDIR}/_ext/2d7f4231/mcp3422.o: ../WiringPi-2.60/wiringPi/mcp3422.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp3422.o ../WiringPi-2.60/wiringPi/mcp3422.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp3422.o ../WiringPi-2.60/wiringPi/mcp3422.c
 
 ${OBJECTDIR}/_ext/2d7f4231/mcp4802.o: ../WiringPi-2.60/wiringPi/mcp4802.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp4802.o ../WiringPi-2.60/wiringPi/mcp4802.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/mcp4802.o ../WiringPi-2.60/wiringPi/mcp4802.c
 
 ${OBJECTDIR}/_ext/2d7f4231/pcf8574.o: ../WiringPi-2.60/wiringPi/pcf8574.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/pcf8574.o ../WiringPi-2.60/wiringPi/pcf8574.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/pcf8574.o ../WiringPi-2.60/wiringPi/pcf8574.c
 
 ${OBJECTDIR}/_ext/2d7f4231/pcf8591.o: ../WiringPi-2.60/wiringPi/pcf8591.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/pcf8591.o ../WiringPi-2.60/wiringPi/pcf8591.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/pcf8591.o ../WiringPi-2.60/wiringPi/pcf8591.c
 
 ${OBJECTDIR}/_ext/2d7f4231/piHiPri.o: ../WiringPi-2.60/wiringPi/piHiPri.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/piHiPri.o ../WiringPi-2.60/wiringPi/piHiPri.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/piHiPri.o ../WiringPi-2.60/wiringPi/piHiPri.c
 
 ${OBJECTDIR}/_ext/2d7f4231/piThread.o: ../WiringPi-2.60/wiringPi/piThread.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/piThread.o ../WiringPi-2.60/wiringPi/piThread.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/piThread.o ../WiringPi-2.60/wiringPi/piThread.c
 
 ${OBJECTDIR}/_ext/2d7f4231/pseudoPins.o: ../WiringPi-2.60/wiringPi/pseudoPins.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/pseudoPins.o ../WiringPi-2.60/wiringPi/pseudoPins.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/pseudoPins.o ../WiringPi-2.60/wiringPi/pseudoPins.c
 
 ${OBJECTDIR}/_ext/2d7f4231/rht03.o: ../WiringPi-2.60/wiringPi/rht03.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/rht03.o ../WiringPi-2.60/wiringPi/rht03.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/rht03.o ../WiringPi-2.60/wiringPi/rht03.c
 
 ${OBJECTDIR}/_ext/2d7f4231/sn3218.o: ../WiringPi-2.60/wiringPi/sn3218.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/sn3218.o ../WiringPi-2.60/wiringPi/sn3218.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/sn3218.o ../WiringPi-2.60/wiringPi/sn3218.c
 
 ${OBJECTDIR}/_ext/2d7f4231/softPwm.o: ../WiringPi-2.60/wiringPi/softPwm.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/softPwm.o ../WiringPi-2.60/wiringPi/softPwm.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/softPwm.o ../WiringPi-2.60/wiringPi/softPwm.c
 
 ${OBJECTDIR}/_ext/2d7f4231/softServo.o: ../WiringPi-2.60/wiringPi/softServo.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/softServo.o ../WiringPi-2.60/wiringPi/softServo.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/softServo.o ../WiringPi-2.60/wiringPi/softServo.c
 
 ${OBJECTDIR}/_ext/2d7f4231/softTone.o: ../WiringPi-2.60/wiringPi/softTone.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/softTone.o ../WiringPi-2.60/wiringPi/softTone.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/softTone.o ../WiringPi-2.60/wiringPi/softTone.c
 
 ${OBJECTDIR}/_ext/2d7f4231/sr595.o: ../WiringPi-2.60/wiringPi/sr595.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/sr595.o ../WiringPi-2.60/wiringPi/sr595.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/sr595.o ../WiringPi-2.60/wiringPi/sr595.c
 
 ${OBJECTDIR}/_ext/2d7f4231/wiringPi.o: ../WiringPi-2.60/wiringPi/wiringPi.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/wiringPi.o ../WiringPi-2.60/wiringPi/wiringPi.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/wiringPi.o ../WiringPi-2.60/wiringPi/wiringPi.c
 
 ${OBJECTDIR}/_ext/2d7f4231/wiringPiI2C.o: ../WiringPi-2.60/wiringPi/wiringPiI2C.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/wiringPiI2C.o ../WiringPi-2.60/wiringPi/wiringPiI2C.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/wiringPiI2C.o ../WiringPi-2.60/wiringPi/wiringPiI2C.c
 
 ${OBJECTDIR}/_ext/2d7f4231/wiringPiSPI.o: ../WiringPi-2.60/wiringPi/wiringPiSPI.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/wiringPiSPI.o ../WiringPi-2.60/wiringPi/wiringPiSPI.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/wiringPiSPI.o ../WiringPi-2.60/wiringPi/wiringPiSPI.c
 
 ${OBJECTDIR}/_ext/2d7f4231/wiringSerial.o: ../WiringPi-2.60/wiringPi/wiringSerial.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/wiringSerial.o ../WiringPi-2.60/wiringPi/wiringSerial.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/wiringSerial.o ../WiringPi-2.60/wiringPi/wiringSerial.c
 
 ${OBJECTDIR}/_ext/2d7f4231/wiringShift.o: ../WiringPi-2.60/wiringPi/wiringShift.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/wiringShift.o ../WiringPi-2.60/wiringPi/wiringShift.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/wiringShift.o ../WiringPi-2.60/wiringPi/wiringShift.c
 
 ${OBJECTDIR}/_ext/2d7f4231/wpiExtensions.o: ../WiringPi-2.60/wiringPi/wpiExtensions.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2d7f4231
 	${RM} "$@.d"
-	$(COMPILE.c) -g -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/wpiExtensions.o ../WiringPi-2.60/wiringPi/wpiExtensions.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2d7f4231/wpiExtensions.o ../WiringPi-2.60/wiringPi/wpiExtensions.c
 
 # Subprojects
 .build-subprojects:

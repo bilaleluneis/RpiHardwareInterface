@@ -96,18 +96,15 @@
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
-    <conf name="Debug" type="2">
+    <conf name="Debug" type="3">
       <toolsSet>
         <compilerSet>default</compilerSet>
         <dependencyChecking>true</dependencyChecking>
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
-        <linkerTool>
-          <linkerLibItems>
-            <linkerOptionItem>-lm -lpthread -lrt -lcrypt</linkerOptionItem>
-          </linkerLibItems>
-        </linkerTool>
+        <archiverTool>
+        </archiverTool>
       </compileType>
       <item path="../WiringPi-2.60/wiringPi/ads1115.c"
             ex="false"
