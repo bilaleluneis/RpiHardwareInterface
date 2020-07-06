@@ -62,17 +62,13 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=-Wl,-rpath,'../CHardwareInterface/dist/Debug/GNU-Linux' -L../CHardwareInterface/dist/Debug/GNU-Linux -lCHardwareInterface -Wl,-rpath,'../CHardwareInterface/dist/Release/GNU-Linux' -L../CHardwareInterface/dist/Release/GNU-Linux -lCHardwareInterface
+LDLIBSOPTIONS=../CHardwareInterface/dist/Debug/GNU-Linux/libchardwareinterface.a -lm -lpthread -lrt -lcrypt
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
 	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libSensors.${CND_DLIB_EXT}
-	${CP} ../CHardwareInterface/dist/Debug/GNU-Linux/libCHardwareInterface.so ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${CP} ../CHardwareInterface/dist/Release/GNU-Linux/libCHardwareInterface.so ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libSensors.${CND_DLIB_EXT}: ../CHardwareInterface/dist/Debug/GNU-Linux/libCHardwareInterface.so
-
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libSensors.${CND_DLIB_EXT}: ../CHardwareInterface/dist/Release/GNU-Linux/libCHardwareInterface.so
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libSensors.${CND_DLIB_EXT}: ../CHardwareInterface/dist/Debug/GNU-Linux/libchardwareinterface.a
 
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libSensors.${CND_DLIB_EXT}: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
@@ -126,8 +122,6 @@ ${OBJECTDIR}/dht11_nomain.o: ${OBJECTDIR}/dht11.o dht11.c
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} -r ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.so ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.so
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libSensors.${CND_DLIB_EXT}
 
 # Subprojects
 .clean-subprojects:

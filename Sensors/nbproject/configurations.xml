@@ -89,50 +89,29 @@
           <linkerLibItems>
             <linkerLibProjectItem>
               <makeArtifact PL="../CHardwareInterface"
-                            CT="2"
+                            CT="3"
                             CN="Debug"
                             AC="true"
                             BL="false"
                             WD="../CHardwareInterface"
                             BC="${MAKE}  -f Makefile CONF=Debug"
                             CC="${MAKE}  -f Makefile CONF=Debug clean"
-                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.${CND_DLIB_EXT}">
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libchardwareinterface.a">
               </makeArtifact>
             </linkerLibProjectItem>
-            <linkerLibProjectItem>
-              <makeArtifact PL="../CHardwareInterface"
-                            CT="2"
-                            CN="Release"
-                            AC="false"
-                            BL="false"
-                            WD="../CHardwareInterface"
-                            BC="${MAKE}  -f Makefile CONF=Release"
-                            CC="${MAKE}  -f Makefile CONF=Release clean"
-                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.${CND_DLIB_EXT}">
-              </makeArtifact>
-            </linkerLibProjectItem>
+            <linkerOptionItem>-lm -lpthread -lrt -lcrypt</linkerOptionItem>
           </linkerLibItems>
         </linkerTool>
         <requiredProjects>
           <makeArtifact PL="../CHardwareInterface"
-                        CT="2"
+                        CT="3"
                         CN="Debug"
                         AC="true"
                         BL="false"
                         WD="../CHardwareInterface"
                         BC="${MAKE}  -f Makefile CONF=Debug"
                         CC="${MAKE}  -f Makefile CONF=Debug clean"
-                        OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.${CND_DLIB_EXT}">
-          </makeArtifact>
-          <makeArtifact PL="../CHardwareInterface"
-                        CT="2"
-                        CN="Release"
-                        AC="false"
-                        BL="false"
-                        WD="../CHardwareInterface"
-                        BC="${MAKE}  -f Makefile CONF=Release"
-                        CC="${MAKE}  -f Makefile CONF=Release clean"
-                        OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.${CND_DLIB_EXT}">
+                        OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libchardwareinterface.a">
           </makeArtifact>
         </requiredProjects>
       </compileType>
@@ -166,6 +145,12 @@
           <packFileListElem type="File"
                             to="${PACKAGE_TOP_DIR}lib/libCHardwareInterface.so"
                             from="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libCHardwareInterface.so"
+                            perm="644"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}lib/${OUTPUT_BASENAME}"
+                            from="${OUTPUT_PATH}"
                             perm="644"
                             owner="root"
                             group="bin"/>
