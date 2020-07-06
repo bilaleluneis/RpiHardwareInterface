@@ -24,11 +24,7 @@ int clean_suite(void) {
 }
 
 void testRead() {
-    CU_ASSERT(wiringPiSetup() != -1 );
     dhtData result;
-    result.success = FALSE;
-    result.temp = -1;
-    result.humidity = -1;
     for(int i =0; i < 100; i++) {
         result = get(1);
         delay(300);
@@ -36,8 +32,8 @@ void testRead() {
             break;
     }
     CU_ASSERT(result.success == TRUE);
-    CU_ASSERT(result.temp != -1);
-    CU_ASSERT(result.humidity != -1);
+    CU_ASSERT(result.temp != 0);
+    CU_ASSERT(result.humidity != 0);
 }
 
 

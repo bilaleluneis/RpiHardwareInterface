@@ -5,6 +5,14 @@
 
 dhtData get(const int pin) {
     
+    dhtData result;
+    result.success = FALSE;
+    result.temp = 0;
+    result.humidity = 0;
+    
+    if(wiringPiSetup() == -1)
+        return result;
+    
     int dht11_dat[5] = { 0, 0, 0, 0, 0 };
     uint8_t laststate	= HIGH;
     uint8_t counter	= 0;
@@ -32,10 +40,6 @@ dhtData get(const int pin) {
             j++;
         }
     }
-    dhtData result;
-    result.success = FALSE;
-    result.temp = 0;
-    result.humidity = 0;
     
     if ((j >= 40) && (dht11_dat[4] == ( (dht11_dat[0] + dht11_dat[1] + dht11_dat[2] + dht11_dat[3]) & 0xFF) )) {
         result.success = TRUE;
