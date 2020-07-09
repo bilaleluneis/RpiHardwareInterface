@@ -13,3 +13,9 @@
 /JSensors/build/
 /JSensors/dist/
 /JSensors/nbproject/private/
+
+# KSensors ignored files / folders
+/KSensors/.idea/
+/KSensors/lib/
+/KSensors/out/
+
