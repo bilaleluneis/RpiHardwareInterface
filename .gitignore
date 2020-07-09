@@ -1,5 +1,7 @@
-# CHardwareInterface ignored files / folders
+# Root folder ignores
+/.idea/
 
+# CHardwareInterface ignored files / folders
 /CHardwareInterface/nbproject/private/
 /CHardwareInterface/build/
 /CHardwareInterface/dist/
