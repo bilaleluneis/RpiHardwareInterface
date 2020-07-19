@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="JSensors">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../JSensors/dist/lib/jna-5.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../JSensors/dist/lib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../JSensors/dist/lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../JSensors/dist/JSensors.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

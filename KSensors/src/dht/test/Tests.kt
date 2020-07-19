@@ -6,7 +6,7 @@ import org.junit.Assert.assertTrue
 import rpi.Pins
 
 
-class Tests public constructor() {
+class Tests {
 
     @Test
     fun readData() {
